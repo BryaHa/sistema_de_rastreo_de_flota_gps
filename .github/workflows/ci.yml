@@ -20,4 +20,4 @@ jobs:
         run: grep -q "<html" index.html
 
       - name: Verificar titulo
-        run: grep -q "<h1>" index.html
+        run: grep -q "<title>" index.html
